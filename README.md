@@ -191,5 +191,3 @@ Ruqayya Mustafa
 ## License
 
 This project was created for CISC. 4905 and CUNY Tech Prep
-```
-
