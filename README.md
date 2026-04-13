@@ -149,6 +149,3 @@ node routes/market.js
 # 👨‍💻 Author
 
 Built by **Ruqayya**
-
-```
-
