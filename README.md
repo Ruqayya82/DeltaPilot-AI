@@ -44,7 +44,7 @@ It combines a **Next.js frontend**, a **Python trading backend**, and a **Node.j
 
 ### 📁 Project Structure
 
-``` 
+```.
 deltapilot/
 │
 ├── .gitignore
