@@ -1,36 +1,49 @@
-Here is a clean, professional **README.md** for your DeltaPilot project 👇 (you can copy-paste directly into GitHub)
+Got it — GitHub sometimes collapses formatting if it’s not properly fenced.
+
+Here is a **fixed README.md with a clean, readable project structure (proper tree format)** 👇
 
 ---
 
 ```md
 # 🚀 DeltaPilot AI
 
-DeltaPilot is a full-stack AI-powered trading platform that combines real-time market data, signal generation, and portfolio tracking into a unified dashboard.
+DeltaPilot is a full-stack AI-powered trading platform with real-time market data, signal generation, and portfolio tracking.
 
-It includes a **Next.js frontend**, a **Python backend for trading logic**, and a **Node.js backend for API routes and market data services**.
+It combines a **Next.js frontend**, a **Python trading backend**, and a **Node.js API layer**.
 
 ---
 
 # 📊 Features
 
-- 📈 Real-time price tracking dashboard  
-- 🤖 AI trading signal engine (Python backend)  
-- 💼 Portfolio & positions tracking  
-- ⚡ Fast API-driven architecture  
-- 📊 Interactive charts and market overview  
-- 💰 Buy/Sell trade execution panel  
-- 🔗 Multi-backend system (Node.js + Python)
+- 📈 Real-time market dashboard  
+- 🤖 AI signal generation engine  
+- 💼 Portfolio tracking  
+- ⚡ Fast API backend integration  
+- 📊 Interactive charts  
+- 💰 Buy/Sell trading panel  
+- 🔗 Multi-backend architecture  
 
 ---
 
-# 🧠 Project Architecture
+# 🧠 Tech Stack
 
-DeltaPilot follows a **multi-service full-stack architecture**:
+### Frontend
+- Next.js 13+ (App Router)
+- React
+- TypeScript
+- Tailwind CSS
 
-- **Frontend:** Next.js (React + TypeScript)
-- **Backend (Python):** FastAPI/Flask-style trading engine
-- **Backend (Node.js):** API routes and market data handling
-- **Database:** SQLite (`deltapilot.db`)
+### Backend (Python)
+- FastAPI / Flask
+- Signal engine
+- SQLite database
+
+### Backend (Node.js)
+- Express.js
+- Market data routes
+
+### Database
+- SQLite (`deltapilot.db`)
 
 ---
 
@@ -48,68 +61,51 @@ deltapilot/
 ├── package.json
 ├── start-frontend.bat
 │
-├── backend/                 # Node.js backend
+├── backend/
 │   └── routes/
 │       └── market.js
 │
-├── backend_py/              # Python backend (trading engine)
+├── backend_py/
 │   ├── database.py
 │   ├── main.py
 │   ├── requirements.txt
 │   ├── schema.sql
 │   └── signal_engine.py
 │
-├── frontend/                # Next.js frontend
-│   ├── app/                 # App Router (Next.js 13+)
+├── frontend/
+│   ├── app/
 │   │   ├── favicon.ico
 │   │   ├── globals.css
 │   │   ├── layout.tsx
 │   │   └── page.tsx
 │   │
-│   ├── components/         # UI Components
+│   ├── components/
 │   │   ├── Dashboard.tsx
 │   │   ├── MarketOverview.tsx
 │   │   ├── PortfolioCard.tsx
 │   │   ├── PriceChart.tsx
 │   │   └── TradePanel.tsx
 │   │
-│   ├── lib/                # Utilities & API layer
+│   ├── lib/
 │   │   ├── api.ts
 │   │   └── usePriceWebSocket.ts
 │   │
-│   └── public/             # Static assets
+│   └── public/
+│       ├── file.svg
+│       ├── globe.svg
+│       ├── next.svg
+│       ├── vercel.svg
+│       └── window.svg
 │
-└── src/                    # Additional source files
+└── src/
 
 ````
 
 ---
 
-# 🛠️ Tech Stack
-
-### Frontend
-- Next.js 13+ (App Router)
-- React
-- TypeScript
-- Tailwind CSS
-
-### Backend (Python)
-- FastAPI / Flask
-- Signal generation engine
-- Database handling (SQLite)
-
-### Backend (Node.js)
-- Express.js
-- Market data API routes
-
-### Database
-- SQLite (`deltapilot.db`)
-
----
-
 # 🚀 Getting Started
 
-## 1. Clone the repository
+## 1. Clone repo
 ```bash
 git clone https://github.com/YOUR_USERNAME/DeltaPilot-AI.git
 cd deltapilot
@@ -117,7 +113,7 @@ cd deltapilot
 
 ---
 
-## 2. Install Frontend
+## 2. Run frontend
 
 ```bash
 cd frontend
@@ -125,15 +121,9 @@ npm install
 npm run dev
 ```
 
-Frontend runs on:
-
-```
-http://localhost:3000
-```
-
 ---
 
-## 3. Start Python Backend
+## 3. Run Python backend
 
 ```bash
 cd backend_py
@@ -141,15 +131,9 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-Backend runs on:
-
-```
-http://localhost:8000
-```
-
 ---
 
-## 4. (Optional) Node.js Backend
+## 4. Run Node backend (optional)
 
 ```bash
 cd backend
@@ -159,21 +143,12 @@ node routes/market.js
 
 ---
 
-# 🔗 API Endpoints (Example)
+# 📌 Status
 
-* `/api/market/price`
-* `/api/signals`
-* `/api/trading/account`
-* `/api/trading/order`
-
----
-
-# 📌 Project Status
-
-🚧 In active development
-⚡ Core trading engine working
-📊 Frontend dashboard implemented
-🔗 Backend integration in progress
+* ✅ Frontend dashboard built
+* ✅ Signal engine working
+* ⚡ Backend integration in progress
+* 🚧 Active development
 
 ---
 
@@ -181,10 +156,5 @@ node routes/market.js
 
 Built by **Ruqayya**
 
----
+```
 
-# 📄 License
-
-This project is for educational and development purposes.
-
----
