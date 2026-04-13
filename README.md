@@ -1,8 +1,3 @@
-Got it — GitHub sometimes collapses formatting if it’s not properly fenced.
-
-Here is a **fixed README.md with a clean, readable project structure (proper tree format)** 👇
-
----
 
 ```md
 # 🚀 DeltaPilot AI
