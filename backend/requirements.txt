@@ -1,0 +1,13 @@
+yfinance
+numpy
+pandas
+scikit-learn
+flask
+flask-cors
+tensorflow
+pytest
+requests
+torch
+huggingface_hub
+transformers
+safetensors
